@@ -38,3 +38,13 @@
 }
   }
 }
+"plugins": [
+  [
+    "expo-build-properties",
+    {
+      "android": {
+        "buildArchs": ["armeabi-v7a"]
+      }
+    }
+  ]
+],
