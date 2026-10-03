@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "hi-gyan-ai",
-  "slug": "gyan-ai-3x4hqxk2tron4mjtcv4yg",
+    "slug": "gyan-ai-3x4hqxk2tron4mjtcv4yg",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,6 +13,17 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "buildArchs": ["armeabi-v7a"]
+          }
+        }
+      ]
+    ],
 
     "ios": {
       "supportsTablet": true
@@ -31,20 +42,10 @@
       "favicon": "./assets/favicon.png"
     },
 
-"extra": {
-  "eas": {
-    "projectId": "806c8d74-232d-4fca-914e-d4b686b74693"
-  }
-}
-  }
-}
-"plugins": [
-  [
-    "expo-build-properties",
-    {
-      "android": {
-        "buildArchs": ["armeabi-v7a"]
+    "extra": {
+      "eas": {
+        "projectId": "806c8d74-232d-4fca-914e-d4b686b74693"
       }
     }
-  ]
-],
+  }
+}
